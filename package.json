@@ -30,12 +30,8 @@
   "author": "Adam Sokołowski <adam.sokolowski@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "glob": "7.1.6",
     "husky": "4.2.3",
-    "lodash": "4.17.15",
-    "path": "0.12.7",
     "sass-lint": "1.13.1",
-    "sass-true": "5.0.0",
     "standard-version": "7.1.0"
   }
 }
