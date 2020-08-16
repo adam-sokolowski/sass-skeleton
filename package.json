@@ -16,9 +16,9 @@
   ],
   "scripts": {
     "sass:lint": "sass-lint 'src/**/*.scss' -v -q",
-    "release:patch": "standard-version --release-as patch",
-    "release:minor": "standard-version --release-as minor",
-    "reset:githooks": "rm -rf ./.git/hooks/* && rm -rf node_modules/husky && yarn install --check-files"
+    "package:release:patch": "standard-version --release-as patch",
+    "package:release:minor": "standard-version --release-as minor",
+    "package:githooks:reset": "rm -rf ./.git/hooks/* && rm -rf node_modules/husky && yarn install --check-files"
   },
   "husky": {
     "hooks": {
@@ -30,8 +30,11 @@
   "author": "Adam Sokołowski <adam.sokolowski@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "husky": "4.2.3",
-    "sass-lint": "1.13.1",
-    "standard-version": "8.0.1"
+    "husky": "~4.2.5",
+    "sass-lint": "~1.13.1",
+    "standard-version": "~9.0.0"
+  },
+  "resolutions": {
+    "dot-prop": "^5.2.0"
   }
 }
